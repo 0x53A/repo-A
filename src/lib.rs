@@ -10,5 +10,5 @@ pub fn sub(left: u64, right: u64) -> u64 {
 
 #[cfg(feature = "foo")]
 pub fn foo() {
-    writeln!("foo");
+    println!("foo");
 }
